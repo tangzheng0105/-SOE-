@@ -1,0 +1,401 @@
+
+
+
+<!doctype html>
+<html>
+<head>
+    <title>淘客APP|淘宝客APP|淘客APP订制|淘宝客APP订制|淘客APP开发|返利APP系统|淘客APP制作|花生日记</title>
+    <meta name="keywords" content="淘客APP,淘宝客APP,淘客APP订制,淘宝客APP订制,淘客APP开发,返利APP系统,淘客APP制作,花生日记">
+    <meta name="description" content="六先生淘客APP原生态订制官网，快速开发淘宝客APP，轻松制作淘客APP，同时拥有iOS+安卓APP，可上架，做国内最强大的大牛专用淘客APP，打造最全面的移动解决方案。">
+    <link rel="stylesheet" href="./css/useemploy.v1528095441944.css">
+
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <meta property="qc:admins" content="215146377565101003636">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="//webcdn.leapcloud.cn/website/images/font-icons/style.css">
+
+    <!--<link rel="stylesheet" href="/javascript/lib/selectUI/css/drop-down.css">-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="index,follow" name="Baiduspider">
+    <meta content="index,follow" name="robots">
+
+    <!--fundebuger-->
+    <!--<script src="https://js.fundebug.cn/fundebug.0.3.5.min.js" apikey="9972fb57226b9445f62cd08fcdf8f74c3d2f6e2d64a18b908fd53bf9f339c3b0"></script>-->
+    <script src="//webcdn.leapcloud.cn/website/javascript/vendor/adaptive-master/js/adaptive.js"></script>
+
+
+    <script type="text/javascript">
+    function checkBrowser(v) {
+        var userAgent = navigator.userAgent.toLowerCase(), low = false;
+        if (isChromium(userAgent)) {
+            low = chromium(userAgent, v.GG);
+        } else if (isWebkit(userAgent)) {
+//            low = Safari(userAgent, v.Safari);
+        } else if (isFireFox(userAgent)) {
+            low = FireFox(userAgent, v.FF)
+        } else if (isIE) {
+            low = IE(v.IE)
+        } else {
+            low = true;
+        }
+        checkjump(low)
+    }
+
+    function checkjump(low) {
+        if(low) window.location.href = "/outdatedbrowser" + window.location.search + "?version=001";
+    }
+
+//    function Safari(userAgent, v) {
+////        var version = userAgent.match(/version\/([\d.]+)/);
+//        console.log("safair"+ version);
+//        return parseInt(version) < v;
+//    }
+
+    function FireFox(userAgent, v) {
+        var version = userAgent.match(/firefox\/([\d.]+)/)[1];
+        return parseInt(version) < v;
+    }
+
+    function chromium(userAgent, v) {
+        var version = userAgent.match(/chrome\/([\d.]+)/)[1];
+        var versionNum = version.split(".")[0];
+        return parseInt(versionNum) < v;
+    }
+
+    function IE(v) {
+        var version = 999999;
+        if (navigator.appName == 'Microsoft Internet Explorer') {
+            new RegExp("MSIE ([0-9]{1,}[\.0-9]{0,})").exec(navigator.userAgent);
+            version = parseInt(RegExp.$1);
+        } else if ("ActiveXObject" in window) {
+            version = 11;
+        }
+        return parseInt(version) < v;
+    };
+// 判断是否为chrome内核浏览器
+    function isChromium(userAgent) {
+        var chromium = "mozilla/&&applewebkit/&&chrome/&&safari/".split("&&");
+        for (var i = 0; i < chromium.length; i++)
+            if (userAgent.indexOf(chromium[i]) < 0)
+                return false;
+        return true;
+    }
+
+    // 判断是否为webkit内核浏览器
+    function isWebkit(userAgent) {
+        if (userAgent.indexOf("applewebkit/") < 0)
+            return false;
+        return true;
+    }
+
+    function isFireFox(userAgent) {
+        if (userAgent.indexOf("firefox/") < 0)
+            return false;
+        return true;
+    }
+
+    function isIE(userAgent) {
+        if ((navigator.userAgent.indexOf('MSIE') >= 0) && (navigator.userAgent.indexOf('Opera') < 0))
+            return true;
+        return false;
+    }
+
+    //检查浏览器
+    checkBrowser({IE: 9, FF: 30, GG: 20, Safari: 4});
+
+    // //隐身模式判断
+    // try {
+    //     window.localStorage.setItem('testkey', '');
+    // } catch (error) {
+    //     if (window.locale === 'zh') {
+    //         alert("请关闭隐身模式");
+    //     } else {
+    //         alert("Please exit private mode");
+    //     }
+    // }
+
+</script>
+
+</head>
+
+<body>
+<!-- WPA start -->
+<script id="qd285215536857adb0b310423d1302aafbf4ea99b85f" src="https://wp.qiye.qq.com/qidian/2852155368/57adb0b310423d1302aafbf4ea99b85f" charset="utf-8" async defer></script>
+<!-- WPA end -->
+    <!--网站头部导航 PC端-->
+    <header class="leapCloud-header">
+        <div class="header-content-pc">
+            <a class="leapCloud-header-logo" href="index.html"><img src="/images/logo_blue.png" srcset="/images/logo_blue.png 2x" alt=""></a>
+            <ul class="navbar-left">
+                <li class="navli "><a href="index.html">返回首页</a></li>
+            </ul>
+            <ul class="navbar-right">
+                <li class="navli noMarginRight>"><a href="http://q.url.cn/abjDuo?_type=wpa&qidian=true" target="_blank">在线咨询</a></li>
+            </ul>
+        </div>
+    </header>
+    <!--网站头部导航 Mobile端-->
+    <header class="leapCloud-header-mobile">
+        <a class="leapCloud-header-logo-mobile" href="index.html"><img src="/images/logo_blue.png" alt=""></a>
+        <a href="javascript:void(0)" id="mobile-nav-control" class="hide">
+            <span class="clearmid"></span>
+            <i></i>
+        </a>
+        <div id="mobile-navbar">
+            <ul id="navbar">
+                <li class="navli "><a href="index.html">返回首页</a></li>
+            </ul>
+            <ul id="mobile-login-buttons">
+                <li class="navli noMarginRight>"><a href="http://q.url.cn/abjDuo?_type=wpa&qidian=true" target="_blank">在线咨询</a></li>
+            </ul>
+        </div>
+
+
+    </header>
+
+    <div class="useemploy-body mainStyle">
+        <div class="useemploy-content">
+            <div class="useemploy-left">
+                <ul class="useemploy-left-title">
+                    <li class="useemploy-left-head">订制APP主要功能</li>
+
+                    <li><a href="#花生模式">●花生模式</a></li>
+                    <li><a href="#区域代理">●区域代理</a></li>
+                    <li><a href="#信息流文案">●信息流文案</a></li>
+                    <li><a href="#活动链接加参数">●活动链接加参数</a></li>
+
+                    <li><a href="#超级搜索">●超级搜索</a></li>
+                    <li><a href="#界面管理">●界面管理</a></li>
+                    <li><a href="#积分商城">●积分商城</a></li>
+                    <li><a href="#营销功能">●营销功能</a></li>
+                    <li><a href="#流量变现">●流量变现</a></li>
+                    <li><a href="#限时抢购">●限时抢购</a></li>
+                    <li><a href="#三级分销">●三级分销</a></li>
+                    <li><a href="#购物返利">●购物返利</a></li>
+                    <li><a href="#快速分享">●快速分享</a></li>
+                    <li><a href="#分享赚">●分享赚</a></li>
+                    <li><a href="#商品管理">●商品管理</a></li>
+                    <li><a href="#用户管理">●用户管理</a></li>
+
+					<li><a>—————</a></li>
+					<li><a>简单功能省略</a></li>
+                </ul>
+            </div>
+            <div class="useemploy-right">
+                <h1 class="useemploy-right-title">六先生原生态淘客APP功能释义</h1>
+                <div class="useemploy-right-intro">
+                    <p class="useemploy-right-p">本文档仅进行简单的功能释义，如需了解功能详细情况，您可以咨询客服！</p>
+                    <p class="useemploy-right-p">更多新功能正在不断开发中，敬请期待！</p>
+                    <p class="useemploy-right-p">本着对广大客户负责的态度，本公司将加快开发步伐，保证“人无我有、人有我强”的态势，为广大客户开发出更好用的淘客APP！</p>
+                </div>
+                <div class="useemploy-right-details">
+                    <div class="useemploy-right-details-count">
+                        <h1 id="花生模式">花生模式</h1>
+                        <p>一比一对照花生APP模式运营商军团长，支持运营商独立用自己的联盟，且代理级别支持更高，功能只强不弱此功能，联系客服了解细节</p>
+                    </div>
+                    <div class="useemploy-right-details-count">
+                        <h1 id="区域代理">区域代理</h1>
+                        <p>可设置整个区域的代理，数据单独计算，支持与其他代理模式共存，区域代理相当于代理的升级版，普通代理是三级内的分成，区域代理是可拿下面所有代理用户总收益抽成，可以邀请实体商家，店铺，快递小哥等玩法</p>
+                    </div>
+                    <div class="useemploy-right-details-count">
+                        <h1 id="信息流文案">信息流文案</h1>
+                        <p>新增商品信息流文案模板功能，可自定义用户通知信息流文案，打通用户互动场景，可以作为每日主推产品的推荐，变种玩法各种肉单，过夜单，高品质单都可以放这里，为了用户，不建议放假货或者很粗糙的产品，找些容易产生回购，反馈效果好的商品最为显著</p>
+                    </div>
+                    <div class="useemploy-right-details-count">
+                        <h1 id="活动链接加参数">活动链接加参数</h1>
+                        <p>自定义相应活动图的链接可加入相应参数，以便实现代理推广可以分佣分PID，应用场景为双11等节日，或者自己运营打造的每周活动，自定义添加方便运营多方受益</p>
+                    </div>
+
+
+                    <div class="useemploy-right-details-count">
+                        <h1 id="超级搜索">超级搜索</h1>
+                        <p>关键字搜索联盟所有返利商品，搜出来的都有返利和优惠，支持标题搜索更精准！淘宝复制标题或者复制分享链接打开APP后自动弹出询问是否搜索某某的文字提醒，提高用户查询的便捷度！提高用户体验</p>
+                    </div>
+                    <div class="useemploy-right-details-count">
+                        <h1 id="界面管理">界面管理</h1>
+                        <p>专属定制版淘客app，可自定义设置界面，并且已实现可视化实时效果设置界面操作，设置更多的时间轴玩法！实时编辑APP同步下拉更新编辑可看效果，方便和灵活，内部模块丰富，并强大的内部链接指向性强大，实现功能强大，并每个模块加入了时间维度，更能实现多场景，多活动，应用场景例如双11页面自动变更，特定节假日活动到达日期自动变更更相关页面内容，可操作性强不用日到了在换，可提前对内容设计制作</p>
+                    </div>
+                    <div class="useemploy-right-details-count">
+                        <h1 id="积分商城">积分商城</h1>
+                        <p>用户在购物、签到、邀请等活动获取积分，且每个积分品类都能分为三级，[使用者-上级-上上级]都能拿到积分分成，玩法更丰富，用户更为积极，可直接在积分商城兑换商品</p>
+                    </div>
+                    <div class="useemploy-right-details-count">
+                        <h1 id="营销功能">营销功能</h1>
+                        <p>丰富的营销功能，购物返利、攒积分商城兑换，抽奖，转盘，更多吸粉营销功能正在开发中</p>
+                    </div>
+                    <div class="useemploy-right-details-count">
+                        <h1 id="流量变现">流量变现</h1>
+                        <p>流量高效变现，流量主变老板，有多种级别和多种灵活代理机制，更能联合线下，线上天猫，大渠道合伙人，大流量用户，更好的设置来实现多流量多渠道变现</p>
+                    </div>
+                    <div class="useemploy-right-details-count">
+                        <h1 id="限时抢购">限时抢购</h1>
+                        <p>低价购买还返积分或现金，限时限量，疯狂抢购，9.9包邮更能激发用户购物欲望</p>
+                    </div>
+                    <div class="useemploy-right-details-count">
+                        <h1 id="三级分销">三级分销</h1>
+                        <p>超灵活三级分佣自动分裂，实现快速赚，并显示商品可获得佣金！横向无限级发展，纵向三级，更灵活的参数设置，能实四种代理审核机制，按订单金额，按订单数量，按邀请人数，按缴费金额。自动审核通过后并按预设佣金比例自动设置比例！</p>
+                    </div>
+                    <div class="useemploy-right-details-count">
+                        <h1 id="购物返利">购物返利</h1>
+                        <p>购买商城任意的商品，都可获得一定的返利，可设置为第一次可见，也可设置为成为代理后可见！建议为初期代理条件比较低，成为代理后可见返利，好处多多，否则用户会没有任何粘性可言，碰到返利比例比你高的立刻走人，如果开启了例如邀请人成为代理并显示返利后会有一个赚钱的过程不容易流失，毕竟返利的同时还能赚钱，比单获得返利佣金要有吸引力！</p>
+                    </div>
+                    <div class="useemploy-right-details-count">
+                        <h1 id="快速分享">快速分享</h1>
+                        <p>支持商品一键分享至微信、朋友圈、QQ、QQ空间、微博等大流量平台</p>
+                    </div>
+                    <div class="useemploy-right-details-count">
+                        <h1 id="分享赚">分享赚</h1>
+                        <p>不用花钱，分享即可赚钱，降低裂变成本，提高裂变效果，精准到每位用户都能按照自己习惯去设置分享显示内容</p>
+                    </div>
+                    <div class="useemploy-right-details-count">
+                        <h1 id="商品管理">商品管理</h1>
+                        <p>强大的淘客商品库，无需个人亲自管理，每天定时更新，结合4大平台，全天候审查优惠券情况，自动清理无券，券领完了的商品，高级版本会有独立的放单是系统添加商品</p>
+                    </div>
+                    <div class="useemploy-right-details-count">
+                        <h1 id="用户管理">用户管理</h1>
+                        <p>自动管理用户信息等，方便、快速，查询方便灵活，多种检索方式</p>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+<div id="footer">
+    <div class="mainStyle footer-content">
+	    <ul class="footer-logo">
+            <li><img src="/images/footer_logo.png" alt=""></li>
+        </ul>
+        <ul class="footer-nav">
+            <li class="head">六先生</li>
+            <li><a href="tailor.html">定制服务</a></li>
+            <li><a href="whitepaper.html">技术白皮书</a></li>
+        </ul>
+        <ul class="footer-nav">
+            <li class="head">公司</li>
+            <li><a href="aboutus.html">关于我们</a></li>
+            <li><a href="useemploy.html">使用协议</a></li>
+        </ul>
+        <div class="address">
+            <div class="telephone-h">地址</div>
+            <div class="address-text">长沙市开发区中电软件园 </div>
+            <a class="maxwon-url" href="index.html">www.yangsa.net</a>
+        </div>
+    </div>
+</div>
+<div class="copyRightIndex">© 2018 洋飒网络科技 版权所有 湘ICP备17012856号</div>
+
+<div id="footer-mobile">
+    <div class="mainStyle footer-content-mobile">
+        <ul class="footer-nav">
+		    <li><a href="dingzhi.html">定制服务</a></li>
+            <li><a href="whitepaper.html">技术白皮书</a></li>
+        </ul>
+        <ul class="footer-nav">
+            <li><a href="aboutus.html">关于我们</a></li>
+            <li><a href="useemploy.html">使用协议</a></li>
+        </ul>
+        <div class="addressInfo">
+            <div class="address-text">长沙市开发区中电软件园 </div>
+            <a class="maxwon-url" href="http://www.yangsa.net/">www.yangsa.net</a>
+        </div>
+    </div>
+    <div class="copyRightIndex">© 2018 洋飒网络科技 版权所有 湘ICP备17012856号</div>
+</div>
+
+
+<div id="mobile-righter">
+        <div class="mobile-righter-btn" ><a href="http://q.url.cn/abjDuo?_type=wpa&qidian=true" target="_blank"><img src="./images/QQ.png" alt=""></a> </div>
+        <div onclick="backToTop()" class="mobile-righter-btn"><img src="./images/up.png" alt=""></div>        
+    </div>
+
+<div id="righter">
+    <a class="cube" href="http://q.url.cn/abjDuo?_type=wpa&qidian=true" target="_blank">
+        <div class="sicon support" ></div>
+        <p>在线咨询</p>
+    </a>
+    <!--<div class="cube common-cube">
+        <div class="sicon tel"></div>
+        <p>电话咨询</p>
+        <div class="right-alert">12345678</div>
+    </div>
+    <div class="cube merchants-cube" style="display: none">
+        <div class="sicon tel"></div>
+        <p>电话咨询</p>
+        <div class="right-alert">12345678</div>
+    </div>-->
+    <a class="cube" href="case.html">
+        <div class="sicon login"></div>
+        <p>客户案例</p>
+    </a>
+    <a class="cube" href="update.html">
+        <div class="sicon join"></div>
+        <p>历史更新</p>
+    </a>
+    <a onclick="backToTop()" class="cube " href="javascipt:void(0)">
+            <div class="sicon tel "></div>
+            <p>返回顶部</p>
+        </a>
+    <div class="cube video" href="">
+        <div class="sicon  video-icon"></div>
+        <p>视频介绍</p>
+        <div class="right-alert">六先生视频</div>
+</div>
+
+
+<script src="//webcdn.leapcloud.cn/website/javascript/lib/jquery/jquery.min.js"></script>
+<script src="//webcdn.leapcloud.cn/website/javascript/lib/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+<script src="//webcdn.leapcloud.cn/website/javascript/lib/jquery/jquery.cookie.js"></script>
+<script src="//webcdn.leapcloud.cn/website/javascript/lib/store/dist/store2.min.js"></script>
+<script src="//webcdn.leapcloud.cn/website/javascript/lib/jquery/jquery.validate.min.js"></script>
+<script src="//webcdn.leapcloud.cn/website/javascript/lib/selectUI/js/select-widget-min.js"></script>
+<script src="//webcdn.leapcloud.cn/website/javascript/vendor/jquery.nicescroll/demo/js/jquery.nicescroll.min.js"></script>
+<script src="./js/init.v1528095441944.js"></script>
+
+<script>
+    $(function() {
+        $("html").niceScroll({
+            cursorcolor: "#ccc",//#CC0071 光标颜色
+            cursoropacitymax: 1, //改变不透明度非常光标处于活动状态（scrollabar“可见”状态），范围从1到0
+            touchbehavior: false, //使光标拖动滚动像在台式电脑触摸设备
+            cursorwidth: "5px", //像素光标的宽度
+            cursorborder: "0", // 游标边框css定义
+            cursorborderradius: "5px",//以像素为光标边界半径
+            autohidemode: false //是否隐藏滚动条
+        });
+//        $("#boxscroll").niceScroll({cursorborder:"",cursorcolor:"",boxzoom:true});
+    });
+</script>
+
+<script>
+    window.__ENV__MAXWON = {"env":"PROD"}
+
+</script>
+
+    <!-- <script src="//webcdn.leapcloud.cn/website/javascript/website/useemploy.js"></script> -->
+    <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?c4c283768000b541791fb401b6668fbb";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-70747550-7', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+    </div></body>
+</html>

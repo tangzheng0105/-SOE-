@@ -1,0 +1,430 @@
+
+
+
+<!doctype html>
+<html>
+    <head>
+    <title>淘客APP|淘宝客APP|淘客APP订制|淘宝客APP订制|淘客APP开发|返利APP系统|淘客APP制作|花生日记</title>
+    <meta name="keywords" content="淘客APP,淘宝客APP,淘客APP订制,淘宝客APP订制,淘客APP开发,返利APP系统,淘客APP制作,花生日记">
+    <meta name="description" content="六先生淘客APP原生态订制官网，快速开发淘宝客APP，轻松制作淘客APP，同时拥有iOS+安卓APP，可上架，做国内最强大的大牛专用淘客APP，打造最全面的移动解决方案。">
+        <link rel="stylesheet" href="/css/aboutus.v1528095441944.css">
+
+            <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <meta property="qc:admins" content="215146377565101003636">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!--<link rel="stylesheet" href="/javascript/lib/selectUI/css/drop-down.css">-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="index,follow" name="Baiduspider">
+    <meta content="index,follow" name="robots">
+
+    <script src="/js/adaptive.js"></script>
+
+
+    <script type="text/javascript">
+    function checkBrowser(v) {
+        var userAgent = navigator.userAgent.toLowerCase(), low = false;
+        if (isChromium(userAgent)) {
+            low = chromium(userAgent, v.GG);
+        } else if (isWebkit(userAgent)) {
+//            low = Safari(userAgent, v.Safari);
+        } else if (isFireFox(userAgent)) {
+            low = FireFox(userAgent, v.FF)
+        } else if (isIE) {
+            low = IE(v.IE)
+        } else {
+            low = true;
+        }
+        checkjump(low)
+    }
+
+    function checkjump(low) {
+        if(low) window.location.href = "/outdatedbrowser" + window.location.search + "?version=001";
+    }
+
+//    function Safari(userAgent, v) {
+////        var version = userAgent.match(/version\/([\d.]+)/);
+//        console.log("safair"+ version);
+//        return parseInt(version) < v;
+//    }
+
+    function FireFox(userAgent, v) {
+        var version = userAgent.match(/firefox\/([\d.]+)/)[1];
+        return parseInt(version) < v;
+    }
+
+    function chromium(userAgent, v) {
+        var version = userAgent.match(/chrome\/([\d.]+)/)[1];
+        var versionNum = version.split(".")[0];
+        return parseInt(versionNum) < v;
+    }
+
+    function IE(v) {
+        var version = 999999;
+        if (navigator.appName == 'Microsoft Internet Explorer') {
+            new RegExp("MSIE ([0-9]{1,}[\.0-9]{0,})").exec(navigator.userAgent);
+            version = parseInt(RegExp.$1);
+        } else if ("ActiveXObject" in window) {
+            version = 11;
+        }
+        return parseInt(version) < v;
+    };
+// 判断是否为chrome内核浏览器
+    function isChromium(userAgent) {
+        var chromium = "mozilla/&&applewebkit/&&chrome/&&safari/".split("&&");
+        for (var i = 0; i < chromium.length; i++)
+            if (userAgent.indexOf(chromium[i]) < 0)
+                return false;
+        return true;
+    }
+
+    // 判断是否为webkit内核浏览器
+    function isWebkit(userAgent) {
+        if (userAgent.indexOf("applewebkit/") < 0)
+            return false;
+        return true;
+    }
+
+    function isFireFox(userAgent) {
+        if (userAgent.indexOf("firefox/") < 0)
+            return false;
+        return true;
+    }
+
+    function isIE(userAgent) {
+        if ((navigator.userAgent.indexOf('MSIE') >= 0) && (navigator.userAgent.indexOf('Opera') < 0))
+            return true;
+        return false;
+    }
+
+    //检查浏览器
+    checkBrowser({IE: 9, FF: 30, GG: 20, Safari: 4});
+
+    // //隐身模式判断
+    // try {
+    //     window.localStorage.setItem('testkey', '');
+    // } catch (error) {
+    //     if (window.locale === 'zh') {
+    //         alert("请关闭隐身模式");
+    //     } else {
+    //         alert("Please exit private mode");
+    //     }
+    // }
+
+</script>
+
+</head>
+
+<body>
+<!-- WPA start -->
+<script id="qd285215536857adb0b310423d1302aafbf4ea99b85f" src="https://wp.qiye.qq.com/qidian/2852155368/57adb0b310423d1302aafbf4ea99b85f" charset="utf-8" async defer></script>
+<!-- WPA end -->
+    <!--网站头部导航 PC端-->
+    <header class="leapCloud-header">
+        <div class="header-content-pc">
+            <a class="leapCloud-header-logo" href="index.html"><img src="/images/logo_white@1x.png" srcset="/images/logo_white@1x.png" alt=""></a>
+            <ul class="navbar-left">
+                <li class="navli "><a href="index.html">首页</a></li>
+                <li class="navli "><a href="tailor.html">订制详情</a></li>
+                <li class="navli "><a href="case.html">客户案例</a></li>
+                <li class="navli "><a href="update.html">历史更新</a></li>
+                <li class="navli "><a href="helpcenter.html">用户帮助</a></li>
+				<li class="navli "><a href="news.html">新闻中心</a></li>
+                <li class="navli active"><a href="aboutus.html">关于我们</a></li>
+            </ul>
+            <ul class="navbar-right">
+                <li class="navli noMarginRight>"><a href="http://q.url.cn/abjDuo?_type=wpa&qidian=true" target="_blank">在线咨询</a></li>
+            </ul>
+        </div>
+    </header>
+    <!--网站头部导航 Mobile端-->
+    <header class="leapCloud-header-mobile">
+        <a class="leapCloud-header-logo-mobile" href="index.html"><img src="/images/logo_white@1x.png" alt=""></a>
+        <a href="javascript:void(0)" id="mobile-nav-control" class="hide">
+            <span class="clearmid"></span>
+            <i></i>
+        </a>
+        <div id="mobile-navbar">
+            <ul id="navbar">
+                <li class="navli "><a href="index.html">首页</a></li>
+                <li class="navli "><a href="tailor.html">订制详情</a></li>
+                <li class="navli "><a href="case.html">客户案例</a></li>
+                <li class="navli "><a href="update.html">历史更新</a></li>
+                <li class="navli "><a href="helpcenter.html">用户帮助</a></li>
+				<li class="navli "><a href="news.html">新闻中心</a></li>
+                <li class="navli active"><a href="aboutus.html">关于我们</a></li>
+            </ul>
+            <ul id="mobile-login-buttons">
+                <li class="navli noMarginRight>"><a href="http://q.url.cn/abjDuo?_type=wpa&qidian=true" target="_blank">在线咨询</a></li>
+            </ul>
+        </div>
+
+
+    </header>
+
+
+        <div class="about-section">
+            <!--关于我们banner-->
+            <div class="about-bgImg"></div>
+            <!--移动端背景图-->
+            <img class="about-mobile-bgImg" src="//webcdn.leapcloud.cn/website/images/website/gywm_banner_yd.jpg">
+            <!--关于我们标题-->
+            <div class="about-title mainStyle">关于我们</div>
+            <!--菜单-->
+            <ul class="about-menus mainStyle">
+                <li class="menu-list"><a href="aboutus.html">关于我们</a></li>
+                <li class="menu-list"><a href="history.html">发展历程</a></li>
+                <li class="menu-list"><a href="certificate.html">资质证书</a></li>
+            </ul>
+            <!--向下箭头-->
+            <div class="about-down mainStyle">
+                <div class="down-round">
+                    <div class="arrow-content">
+                        <span class="arrow-line"></span>
+                        <span class="arrow-triangle"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-content mainStyle">
+                <div id="aboutus">
+                    <h2>长沙市洋飒网络科技有限公司</h2>
+                    <div class="aboutus_detail">长沙洋飒网络科技有限公司是一家APP开发SaaS服务提供商,精心为每一淘宝客以及淘客团队量身定制打造更好用的淘客APP SaaS服务。自公司成立以来，已为多家淘宝客大牛团队提供了高品质的APP服务与支持。
+</div>
+                    <div class="aboutus_detail">丰富的开发经验和渠道资源，是公司的特色优势。良好的售前咨询和售后服务是公司品质的保证。模式不断创新，功能迅速迭代。已经并继续给广大淘客用户带来意想不到的惊喜和超额收益。从流量思维向产品思维转型是2018年互联网给广大淘宝客团队带来新一轮的挑战与机遇。在这段创造辉煌的征程上，我们将与您一起携手同行！</div>
+
+                    <div class="aboutus_detail">洋飒网络科技将围绕国家战略性新兴产业、国家科技创新体系建设要求，提升移动互联领域的专业技术服务能力，发展成为创新型的“企业移动云服务平台”，让企业零门槛应用最新技术，助力企业商业创新！</div>
+
+                    <!--公司图片-->
+                    <div class="about-text">
+                        <h2 class="about-h">团队活动</h2>
+                        <span>洋飒网络大家庭活动照 <br> - </span>
+                        <span class="span-mobile">洋飒网络大家庭活动照</span>
+                        <!--<i> - </i>-->
+                    </div>
+                    <img class="about-huanjing" src="//webcdn.leapcloud.cn/website/images/website/img_1x/tdhd@1x.jpg" alt="">
+                    <img class="about-huanjing-mobile" src="//webcdn.leapcloud.cn/website/images/website/tdhd_yd.jpg" alt="">
+
+                    <div class="contactUS">
+                        <h1 id="title">联系方式</h1>
+                        <h2 class="contactUS-title">长沙市总部</h2>
+                        <div class="aboutusperson_detail">
+                            地址：长沙市开发区中电软件园<br>
+                            网站：<a href="index.html" target="_blank">http://www.yangsa.net</a><br>
+                        </div>
+                    </div>
+                    <!--杭州分部高德地图-->
+                    <div class="company-map" id="map">
+                        <div id="wrap" class="my-map">
+                            <div id="mapContainer"></div>
+                        </div>
+                    </div>
+
+                    <br><br><br>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        
+<div id="footer">
+    <div class="mainStyle footer-content">
+	    <ul class="footer-logo">
+            <li><img src="/images/footer_logo.png" alt=""></li>
+        </ul>
+        <ul class="footer-nav">
+            <li class="head">六先生</li>
+            <li><a href="tailor.html">定制服务</a></li>
+            <li><a href="whitepaper.html">技术白皮书</a></li>
+        </ul>
+        <ul class="footer-nav">
+            <li class="head">公司</li>
+            <li><a href="aboutus.html">关于我们</a></li>
+            <li><a href="useemploy.html">使用协议</a></li>
+        </ul>
+        <div class="address">
+            <div class="telephone-h">地址</div>
+            <div class="address-text">长沙市开发区中电软件园 </div>
+            <a class="maxwon-url" href="index.html">www.yangsa.net</a>
+        </div>
+    </div>
+</div>
+<div class="copyRightIndex">© 2018 洋飒网络科技 版权所有 湘ICP备17012856号</div>
+
+<div id="footer-mobile">
+    <div class="mainStyle footer-content-mobile">
+        <ul class="footer-nav">
+		    <li><a href="dingzhi.html">定制服务</a></li>
+            <li><a href="whitepaper.html">技术白皮书</a></li>
+        </ul>
+        <ul class="footer-nav">
+            <li><a href="aboutus.html">关于我们</a></li>
+            <li><a href="useemploy.html">使用协议</a></li>
+        </ul>
+        <div class="addressInfo">
+            <div class="address-text">长沙市开发区中电软件园 </div>
+            <a class="maxwon-url" href="http://www.yangsa.net/">www.yangsa.net</a>
+        </div>
+    </div>
+    <div class="copyRightIndex">© 2018 洋飒网络科技 版权所有 湘ICP备17012856号</div>
+</div>
+
+
+<div id="mobile-righter">
+        <div class="mobile-righter-btn" ><a href="http://q.url.cn/abjDuo?_type=wpa&qidian=true" target="_blank"><img src="./images/QQ.png" alt=""></a> </div>
+        <div onclick="backToTop()" class="mobile-righter-btn"><img src="./images/up.png" alt=""></div>        
+    </div>
+
+<div id="righter">
+    <a class="cube" href="http://q.url.cn/abjDuo?_type=wpa&qidian=true" target="_blank">
+        <div class="sicon support" ></div>
+        <p>在线咨询</p>
+    </a>
+    <!--<div class="cube common-cube">
+        <div class="sicon tel"></div>
+        <p>电话咨询</p>
+        <div class="right-alert">12345678</div>
+    </div>
+    <div class="cube merchants-cube" style="display: none">
+        <div class="sicon tel"></div>
+        <p>电话咨询</p>
+        <div class="right-alert">12345678</div>
+    </div>-->
+    <a class="cube" href="case.html">
+        <div class="sicon login"></div>
+        <p>客户案例</p>
+    </a>
+    <a class="cube" href="update.html">
+        <div class="sicon join"></div>
+        <p>历史更新</p>
+    </a>
+    <a onclick="backToTop()" class="cube " href="javascipt:void(0)">
+        <div class="sicon tel "></div>
+        <p>返回顶部</p>
+    </a>
+    <div class="cube video" href="">
+        <div class="sicon  video-icon"></div>
+        <p>视频介绍</p>
+        <div class="right-alert">六先生视频</div>
+</div>
+
+
+<script src="/js/jquery.min.js"></script>
+<script src="/js/jquery-ui.min.js"></script>
+<script src="/js/jquery.cookie.js"></script>
+<script src="/js/store2.min.js"></script>
+<script src="/js/jquery.validate.min.js"></script>
+<script src="/js/select-widget-min.js"></script>
+<script src="/js/jquery.nicescroll.min.js"></script>
+<script src="/js/init.v1528095441944.js"></script>
+
+<script>
+    $(function() {
+        $("html").niceScroll({
+            cursorcolor: "#ccc",//#CC0071 光标颜色
+            cursoropacitymax: 1, //改变不透明度非常光标处于活动状态（scrollabar“可见”状态），范围从1到0
+            touchbehavior: false, //使光标拖动滚动像在台式电脑触摸设备
+            cursorwidth: "5px", //像素光标的宽度
+            cursorborder: "0", // 游标边框css定义
+            cursorborderradius: "5px",//以像素为光标边界半径
+            autohidemode: false //是否隐藏滚动条
+        });
+//        $("#boxscroll").niceScroll({cursorborder:"",cursorcolor:"",boxzoom:true});
+    });
+</script>
+
+<script>
+    window.__ENV__MAXWON = {"env":"PROD"}
+
+</script>
+
+        <!--引用高德地图API-->
+        <script src="https://webapi.amap.com/maps?v=1.3&key=570b631cfa776da3a45a76b519465ff7"></script>
+        <script src="/js/about.v1528095441944.js"></script>
+        <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?c4c283768000b541791fb401b6668fbb";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-70747550-7', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+       <!--总部地图-->
+        <script>
+            //高德地图
+            !function(){
+                var infoWindow, map, level = 16,
+                    center = {lng: 112.88206, lat: 28.22982},
+                    features = [{type: "Marker", name: "长沙市洋飒网络科技有限公司", desc: "中电软件园", color: "red", icon: "cir", offset: {x: -9, y: -31}, lnglat: {lng: 112.88206, lat: 28.23158}}];
+
+                function loadFeatures(){
+                    for(var feature, data, i = 0, len = features.length, j, jl, path; i < len; i++){
+                        data = features[i];
+                        switch(data.type){
+                            case "Marker":
+                                feature = new AMap.Marker({ map: map, position: new AMap.LngLat(data.lnglat.lng, data.lnglat.lat),
+                                    zIndex: 3, extData: data, offset: new AMap.Pixel(data.offset.x, data.offset.y), title: data.name,
+                                    content: '<div class="icon icon-' + data.icon + ' icon-'+ data.icon +'-' + data.color +'"></div>' });
+                                break;
+                            case "Polyline":
+                                for(j = 0, jl = data.lnglat.length, path = []; j < jl; j++){
+                                    path.push(new AMap.LngLat(data.lnglat[j].lng, data.lnglat[j].lat));
+                                }
+                                feature = new AMap.Polyline({ map: map, path: path, extData: data, zIndex: 2,
+                                    strokeWeight: data.strokeWeight, strokeColor: data.strokeColor, strokeOpacity: data.strokeOpacity });
+                                break;
+                            case "Polygon":
+                                for(j = 0, jl = data.lnglat.length, path = []; j < jl; j++){
+                                    path.push(new AMap.LngLat(data.lnglat[j].lng, data.lnglat[j].lat));
+                                }
+                                feature = new AMap.Polygon({ map: map, path: path, extData: data, zIndex: 1,
+                                    strokeWeight: data.strokeWeight, strokeColor: data.strokeColor, strokeOpacity: data.strokeOpacity,
+                                    fillColor: data.fillColor, fillOpacity: data.fillOpacity });
+                                break;
+                            default: feature = null;
+                        }
+                        if(feature){ AMap.event.addListener(feature, "click", mapFeatureClick); }
+                    }
+                }
+
+                function mapFeatureClick(e){
+                    if(!infoWindow){ infoWindow = new AMap.InfoWindow({autoMove: true}); }
+                    var extData = e.target.getExtData();
+                    infoWindow.setContent("<h5>" + extData.name + "</h5><div>" + extData.desc + "</div>");
+                    infoWindow.open(map, e.lnglat);
+                }
+
+                map = new AMap.Map("mapContainer", {center: new AMap.LngLat(center.lng, center.lat), level: level});
+
+                loadFeatures();
+
+                map.on('complete', function(){
+                    map.plugin(["AMap.ToolBar", "AMap.OverView", "AMap.Scale"], function(){
+                        map.addControl(new AMap.ToolBar);
+                        map.addControl(new AMap.OverView({isOpen: true}));
+                        map.addControl(new AMap.Scale);
+                    });
+                })
+
+            }();
+        </script>
+
+        </div></body>
+</html>

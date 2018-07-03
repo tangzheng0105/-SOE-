@@ -1,0 +1,414 @@
+
+
+
+<!doctype html>
+<html>
+<head>
+    <title>淘客APP|淘宝客APP|淘客APP订制|淘宝客APP订制|淘客APP开发|返利APP系统|淘客APP制作|花生日记</title>
+    <meta name="keywords" content="淘客APP,淘宝客APP,淘客APP订制,淘宝客APP订制,淘客APP开发,返利APP系统,淘客APP制作,花生日记">
+    <meta name="description" content="六先生淘客APP原生态订制官网，快速开发淘宝客APP，轻松制作淘客APP，同时拥有iOS+安卓APP，可上架，做国内最强大的大牛专用淘客APP，打造最全面的移动解决方案。">
+    <link rel="stylesheet" href="./css/useemploy.v1528095441944.css">
+
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <meta property="qc:admins" content="215146377565101003636">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!--<link rel="stylesheet" href="/javascript/lib/selectUI/css/drop-down.css">-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="index,follow" name="Baiduspider">
+    <meta content="index,follow" name="robots">
+
+    <!--fundebuger-->
+    <!--<script src="https://js.fundebug.cn/fundebug.0.3.5.min.js" apikey="9972fb57226b9445f62cd08fcdf8f74c3d2f6e2d64a18b908fd53bf9f339c3b0"></script>-->
+    <script src="//webcdn.leapcloud.cn/website/javascript/vendor/adaptive-master/js/adaptive.js"></script>
+
+
+    <script type="text/javascript">
+    function checkBrowser(v) {
+        var userAgent = navigator.userAgent.toLowerCase(), low = false;
+        if (isChromium(userAgent)) {
+            low = chromium(userAgent, v.GG);
+        } else if (isWebkit(userAgent)) {
+//            low = Safari(userAgent, v.Safari);
+        } else if (isFireFox(userAgent)) {
+            low = FireFox(userAgent, v.FF)
+        } else if (isIE) {
+            low = IE(v.IE)
+        } else {
+            low = true;
+        }
+        checkjump(low)
+    }
+
+    function checkjump(low) {
+        if(low) window.location.href = "/outdatedbrowser" + window.location.search + "?version=001";
+    }
+
+//    function Safari(userAgent, v) {
+////        var version = userAgent.match(/version\/([\d.]+)/);
+//        console.log("safair"+ version);
+//        return parseInt(version) < v;
+//    }
+
+    function FireFox(userAgent, v) {
+        var version = userAgent.match(/firefox\/([\d.]+)/)[1];
+        return parseInt(version) < v;
+    }
+
+    function chromium(userAgent, v) {
+        var version = userAgent.match(/chrome\/([\d.]+)/)[1];
+        var versionNum = version.split(".")[0];
+        return parseInt(versionNum) < v;
+    }
+
+    function IE(v) {
+        var version = 999999;
+        if (navigator.appName == 'Microsoft Internet Explorer') {
+            new RegExp("MSIE ([0-9]{1,}[\.0-9]{0,})").exec(navigator.userAgent);
+            version = parseInt(RegExp.$1);
+        } else if ("ActiveXObject" in window) {
+            version = 11;
+        }
+        return parseInt(version) < v;
+    };
+// 判断是否为chrome内核浏览器
+    function isChromium(userAgent) {
+        var chromium = "mozilla/&&applewebkit/&&chrome/&&safari/".split("&&");
+        for (var i = 0; i < chromium.length; i++)
+            if (userAgent.indexOf(chromium[i]) < 0)
+                return false;
+        return true;
+    }
+
+    // 判断是否为webkit内核浏览器
+    function isWebkit(userAgent) {
+        if (userAgent.indexOf("applewebkit/") < 0)
+            return false;
+        return true;
+    }
+
+    function isFireFox(userAgent) {
+        if (userAgent.indexOf("firefox/") < 0)
+            return false;
+        return true;
+    }
+
+    function isIE(userAgent) {
+        if ((navigator.userAgent.indexOf('MSIE') >= 0) && (navigator.userAgent.indexOf('Opera') < 0))
+            return true;
+        return false;
+    }
+
+    //检查浏览器
+    checkBrowser({IE: 9, FF: 30, GG: 20, Safari: 4});
+
+    // //隐身模式判断
+    // try {
+    //     window.localStorage.setItem('testkey', '');
+    // } catch (error) {
+    //     if (window.locale === 'zh') {
+    //         alert("请关闭隐身模式");
+    //     } else {
+    //         alert("Please exit private mode");
+    //     }
+    // }
+
+</script>
+
+</head>
+
+<body>
+<!-- WPA start -->
+<script id="qd285215536857adb0b310423d1302aafbf4ea99b85f" src="https://wp.qiye.qq.com/qidian/2852155368/57adb0b310423d1302aafbf4ea99b85f" charset="utf-8" async defer></script>
+<!-- WPA end -->
+    <!--网站头部导航 PC端-->
+   <header class="leapCloud-header">
+        <div class="header-content-pc">
+            <a class="leapCloud-header-logo" href="index.html"><img src="/images/logo_blue.png" srcset="/images/logo_blue.png 2x" alt=""></a>
+            <ul class="navbar-left">
+                <li class="navli "><a href="index.html">首页</a></li>
+                <li class="navli "><a href="tailor.html">订制详情</a></li>
+                <li class="navli "><a href="case.html">客户案例</a></li>
+                <li class="navli "><a href="update.html">历史更新</a></li>
+                <li class="navli "><a href="helpcenter.html">用户帮助</a></li>
+                <li class="navli "><a href="news.html">新闻中心</a></li>
+                <li class="navli "><a href="aboutus.html">关于我们</a></li>
+            </ul>
+            <ul class="navbar-right">
+                <li class="navli noMarginRight>"><a href="http://q.url.cn/abjDuo?_type=wpa&qidian=true" target="_blank">在线咨询</a></li>
+            </ul>
+        </div>
+    </header>
+    <!--网站头部导航 Mobile端-->
+    <header class="leapCloud-header-mobile">
+        <a class="leapCloud-header-logo-mobile" href="index.html"><img src="/images/logo_white@1x.png" alt=""></a>
+        <a href="javascript:void(0)" id="mobile-nav-control" class="hide">
+            <span class="clearmid"></span>
+            <i></i>
+        </a>
+        <div id="mobile-navbar">
+            <ul id="navbar">
+                <li class="navli "><a href="index.html">首页</a></li>
+                <li class="navli "><a href="tailor.html">订制详情</a></li>
+                <li class="navli "><a href="case.html">客户案例</a></li>
+                <li class="navli "><a href="update.html">历史更新</a></li>
+                <li class="navli "><a href="helpcenter.html">用户帮助</a></li>
+                <li class="navli "><a href="news.html">新闻中心</a></li>
+                <li class="navli "><a href="aboutus.html">关于我们</a></li>
+            </ul>
+            <ul id="mobile-login-buttons">
+                <li class="navli noMarginRight>"><a href="http://q.url.cn/abjDuo?_type=wpa&qidian=true" target="_blank">在线咨询</a></li>
+            </ul>
+        </div>
+
+
+
+    </header>
+
+    <div class="useemploy-body mainStyle">
+        <div class="useemploy-content">
+            <div class="useemploy-left">
+                <ul class="useemploy-left-title">
+                    <li class="useemploy-left-head">服务协议</li>
+                    <li><a href="#serve">服务详情</a></li>
+                    <li><a href="#count">服务账号</a></li>
+                    <li><a href="#user">用户的权利和义务</a></li>
+                    <li><a href="#company">本公司的权利和义务</a></li>
+                    <li><a href="#tiaokuan">免责条款</a></li>
+                    <li><a href="#zeren">责任范围</a></li>
+                    <li><a href="#fuze">附则</a></li>
+                </ul>
+            </div>
+            <div class="useemploy-right">
+                <h1 class="useemploy-right-title">六先生淘客APP订制使用协议</h1>
+                <div class="useemploy-right-intro">
+                    <p class="useemploy-right-p">《六先生淘客APP订制使用协议》是您与长沙洋飒网络科技有限公司（以下简称“本公司”）就使用本公司淘宝客订制APP所提供的服务（以下简称“本服务”）相关事宜所签订的具有法律效力的合约。</p>
+                    <p class="useemploy-right-p">在使用本网站各项服务前，请您务必仔细阅读并透彻理解本声明。您可以选择不使用本服务，但如果您使用本服务，您的使用行为将被视为对本协议全部内容的认可。</p>
+                    <p class="useemploy-right-p">本公司有权在有必要时修改本条款，并在相关服务页面公布。在本条款内容公告变更后，若您继续使用本服务，表示您已接受修改后的条款内容，若您不同意修改后的条款内容，应立即停止使用本服务，实际条款内容以合作时签订的书面协议为准。</p>
+                </div>
+                <div class="useemploy-right-details">
+                    <div class="useemploy-right-details-count">
+                        <h1 id="serve">服务详情</h1>
+                        <p>本公司致力于提供淘宝客原生APP订制服务，主要服务包括三部分：1）提供六先生淘宝客APP制作服务，包含iOSApp，安卓App；2）一定程度上协助客户制作与上架应用市场服务；3）提供淘宝客APP的部分售后与更新服务。</p>
+                    </div>
+                    <div class="useemploy-right-details-count">
+                        <h1 id="count">服务账号</h1>
+                        <p>在使用本服务时，您需要注册一些相关账号，您应妥善保管您的帐号和密码。因您保管不善可能导致遭受盗号或密码失窃，责任由您自行承担。在您按申请页面提示填写信息，阅读并同意本协议且完成全部申请程序后，表示您已接受本条款所有内容。本公司将运用各种安全技术手段保护您的账号安全，以免遭受未经授权的访问、使用或披露。</p>
+                        <p>本公司不会将您的账号信息转移或披露给任何非关联的第三方，除非：</p>
+                        <p>1）经您同意，向第三方披露</p>
+                        <p>2）根据法律的有关规定，或者应行政或司法机构的合法要求，向第三方或者行政、司法机构披露；</p>
+                        <p>3）如您的经营活动出现违反中国有关法律法规的情况，需要向第三方披露；</p>
+                        <p>4）为提供您所要求的软件或服务，而必须和第三方共用您的数据；</p>
+                        <p>若您违反国家法律法规或违反本条款，本公司有权中止或终止为您提供服务，并删除您所存储的文件及其他所有信息。</p>
+                    </div>
+                    <div class="useemploy-right-details-count">
+                        <h1 id="user">用户的权利和义务</h1>
+                        <p>在本协议的约束下，您可使用本公司提供的互联网技术和信息服务，并可通过本公司发布的渠道获得本公司的技术支持。</p><p>用户要对其账号下所发生的任何行为负责并遵守地方、国家及国外所有与适用本服务有关的适用法律、法规。用户有责任通知本公司任何未经许可的用户所遇到的有关损害安全的问题。</p>
+                        <p>用户对输入数据的准确性、可靠性、合法性、适用性等负责。</p>
+                        <p>用户只能在用户公司商业范围内使用服务，禁止发送违反法律的信息，禁止发送和储存带有病毒的、蠕虫的、木马的和其他有害的计算机代码、文件、脚本和程序。</p>
+                        <p>根据相关法律的规定及行业主管机关的要求，用户有权并有责任保障帐号和密码的安全，有权并有责任对操作人员使用本服务的行为进行审核、监督，并可对违反信息安全责任的行为进行制止、举报。用户甲方应对本软件的操作人员分配密码，并确保密码的安全性。</p>
+                        <p>用户应建立健全用户公司使用本服务的内部保障制度、信息安全保密制度、用户信息安全管理制度，建立健全用户公司信息安全责任制度和信息发布的审批制度，严格审查本公司通过本服务所发布的信息。</p>
+                        <p>用户应严格遵守《互联网信息服务管理办法》，对使用本服务发布的信息内容进行把关，保证信息内容的健康、合法。</p>
+                        <p>用户不得利用本软件制作、复制、发布、传播含有下列内容的信息：</p>
+                        <p>1）反对宪法所确定的基本原则的；</p>
+                        <p>2）危害国家安全，泄露国家秘密，颠覆国家政权，破坏国家统一的；</p>
+                        <p>3）损坏国家荣誉和利益的；</p>
+                        <p>4）煽动民族仇恨、民族歧视，破坏民族团结的；</p>
+                        <p>5）破坏国家民族宗教政策，宣扬邪教和封建迷信的；</p>
+                        <p>6）散布谣言，扰乱社会秩序，破坏社会稳定的；</p>
+                        <p>7）散布淫秽、色情、赌博、暴力、凶杀、恐怖或者教唆犯罪的；</p>
+                        <p>8）侮辱或者诽谤他人，侵害他人合法权益的；</p>
+                        <p>9）含有法律、行政法规禁止的其他内容的。</p>
+                        <p>用户若发现使用本服务所发布的信息明显属于上一条所列内容之一的，应立即撤回信息，并向国家有关机关报告。</p>
+                        <p>用户对使用本软件所发布的信息一时难以辨别是否属于以上所列内容之一的，应报相关主管部门审核同意后再发布。</p>
+                        <p>用户对客户的个人信息保密，未经客户同意不得向他人泄漏，但法律规定的除外。</p>
+                        <p>用户使用本服务，由本公司提供之各种服务功能及软件，其知识产权均属于本公司，用户只能在本服务的范围内使用，如有复制、更改或供他人使用等情形，本公司除终止用户的服务使用外，还可要求赔偿损害。</p>
+                        <p>用户使用本服务需保证所使用的图片、文章以及任何形式文件、数据和资料的知识产权属用户本身所有，如有任何侵权、复制、散播等造成第三方损害的，用户需自行负担所有责任，同时若造成本公司名誉或其他损害，本公司出终止用户的服务使用外，还可要求赔偿损害。</p>
+                        <p>如发生下列任何一种情形，本公司有权不经通知而径直中断或终止向您提供的服务：</p>
+                        <p>1)	根据法律规定您应提交真实信息，而您提供的个人资料不真实、或与注册时信息不一致又未能提供合理证明；</p>
+                        <p>2)	您违反相关法律法规或本条款的约定；</p>
+                        <p>3)	按照法律规定或主管部门的要求；</p>
+                        <p>4)	出于安全的原因或其他必要的情形;</p>
+                        <p>5)	其他必须径直中断或终止的情形</p>
+                        <p>如果本公司发现或收到他人举报您发布的信息违反本条约定，本公司有权进行独立判断并采取技术手段予以删除、屏蔽或断开链接。同时，本公司有权视用户的行为性质，采取包括但不限于暂停或终止服务，限制、冻结或终止账号的使用，追究法律责任等措施。</p>
+                        <p>如果您违反了本条约定，相关国家机关或机构可能会对您提起诉讼、罚款或采取其他制裁措施，对于造成损害的，您应依法予以赔偿，本公司不承担任何责任。</p>
+                        <p>您授权本公司可以通过第三方验证您的身份和资格，并取得您使用本协议约定服务的相关资料。</p>
+                        <p>您确认本公司保留所有本服务中未向您明文赋予的权限。</p>
+                    </div>
+                    <div class="useemploy-right-details-count">
+                        <h1 id="company">本公司的权利和义务</h1>
+                        <p>本公司承诺按照实际书面签订的协议约定提供服务。</p>
+                    </div>
+
+                    <div class="useemploy-right-details-count">
+                        <h1 id="tiaokuan">免责条款</h1>
+                        <p>您理解并同意，在使用本服务的过程中，可能会遇到不可抗力等风险因素，使本服务发生中断。不可抗力是指不能预见、不能克服并不能避免且对一方或双方造成重大影响的客观事件，包括但不限于自然灾害如洪水、地震、瘟疫流行和风暴等以及社会事件如基础电信运营商网络出现严重电力或网络故障，战争、动乱、政府行为、国家政策的突然变动和罢工等。出现上述情况时，本公司将努力在第一时间与相关单位配合，及时进行修复，但是由此给您造成的损失本公司在法律允许的范围内免责。</p>
+                        <p>在法律允许的范围内，本公司对以下情形导致的服务中断不承担责任：</p>
+                        <p>1)	受到计算机病毒、木马或其他恶意程序、黑客攻击的破坏；</p>
+                        <p>2)	用户或本公司的电脑软件、系统、硬件和通信线路出现故障；</p>
+                        <p> 3)	用户操作不当；</p>
+                        <p>4)	用户通过非本公司授权的方式使用本服务；</p>
+                        <p>5)	其他本公司无法控制或合理预见的情形;</p>
+                        <p>6)	本公司系统停机维护期间。</p>
+                        <p>7)	电信设备出现故障不能进行数据传输的。</p>
+                        <p>本公司对下列事项不作任何陈述与保证：</p>
+                        <p>1)	 使用本服务及与任何其它硬件、软件、系统或数据结合时的，安全性、 及时性、不受干扰或不发生错误；</p>
+                        <p>2)	 本服务符合甲方的要求或经验；</p>
+                        <p> 3)	 缺陷将会被更正；</p>
+                        <p>4)	 对本服务的功能按用户的要求进行修改。</p>
+                    </div>
+                    <div class="useemploy-right-details-count">
+                        <h1 id="zeren">责任范围</h1>
+                        <p>本协议受中华人民共和国法律管辖，本协议任何一方违约均须依法承担违约责任。在执行本协议过程中如发生纠纷，双方应及时协商解决。协商不成时，任何一方可直接向本公司所在地法院提起诉讼。</p>
+                        <p>本公司合作伙伴所提供的服务，由该合作伙伴负责，本公司仅对本条款中列明的责任承担范围负责。</p>
+                        <p>本公司不对任何间接性、后果性、惩戒性、偶然性、特殊性的损害，包括您使用本服务而遭受的利润损失承担责任（即使您已被告知该等损失的可能性）。</p>
+                    </div>
+                    <div class="useemploy-right-details-count">
+                        <h1 id="fuze">附则</h1>
+                        <p>本服务使用协议若有未尽事宜得随时修订的，并以补充协议为准，补充协议以相关服务页面公布为准；而生效条款以客户与本公司实际签订的书面合同为准。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+<div id="footer">
+    <div class="mainStyle footer-content">
+        <ul class="footer-logo">
+            <li><img src="/images/footer_logo.png" alt=""></li>
+        </ul>
+        <ul class="footer-nav">
+            <li class="head">六先生</li>
+            <li><a href="tailor.html">定制服务</a></li>
+            <li><a href="whitepaper.html">技术白皮书</a></li>
+        </ul>
+        <ul class="footer-nav">
+            <li class="head">公司</li>
+            <li><a href="aboutus.html">关于我们</a></li>
+            <li><a href="useemploy.html">使用协议</a></li>
+        </ul>
+        <div class="address">
+            <div class="telephone-h">地址</div>
+            <div class="address-text">长沙市开发区中电软件园 </div>
+            <a class="maxwon-url" href="index.html">www.yangsa.net</a>
+        </div>
+    </div>
+</div>
+<div class="copyRightIndex">© 2018 洋飒网络科技 版权所有 湘ICP备17012856号</div>
+
+<div id="footer-mobile">
+    <div class="mainStyle footer-content-mobile">
+        <ul class="footer-nav">
+            <li><a href="dingzhi.html">定制服务</a></li>
+            <li><a href="whitepaper.html">技术白皮书</a></li>
+        </ul>
+        <ul class="footer-nav">
+            <li><a href="aboutus.html">关于我们</a></li>
+            <li><a href="useemploy.html">使用协议</a></li>
+        </ul>
+        <div class="addressInfo">
+            <div class="address-text">长沙市开发区中电软件园 </div>
+            <a class="maxwon-url" href="http://www.yangsa.net/">www.yangsa.net</a>
+        </div>
+    </div>
+    <div class="copyRightIndex">© 2018 洋飒网络科技 版权所有 湘ICP备17012856号</div>
+</div>
+
+
+    <div id="mobile-righter">
+        <div class="mobile-righter-btn" ><a href="http://q.url.cn/abjDuo?_type=wpa&qidian=true" target="_blank"><img src="./images/QQ.png" alt=""></a> </div>
+        <div onclick="backToTop()" class="mobile-righter-btn"><img src="./images/up.png" alt=""></div>        
+    </div>
+
+<div id="righter">
+    <a class="cube" href="http://q.url.cn/abjDuo?_type=wpa&qidian=true" target="_blank">
+        <div class="sicon support" ></div>
+        <p>在线咨询</p>
+    </a>
+    <!--<div class="cube common-cube">
+        <div class="sicon tel"></div>
+        <p>电话咨询</p>
+        <div class="right-alert">12345678</div>
+    </div>
+    <div class="cube merchants-cube" style="display: none">
+        <div class="sicon tel"></div>
+        <p>电话咨询</p>
+        <div class="right-alert">12345678</div>
+    </div>-->
+    <a class="cube" href="case.html">
+        <div class="sicon login"></div>
+        <p>客户案例</p>
+    </a>
+    <a class="cube" href="update.html">
+        <div class="sicon join"></div>
+        <p>历史更新</p>
+    </a>
+    <a onclick="backToTop()" class="cube " href="javascipt:void(0)">
+            <div class="sicon tel "></div>
+            <p>返回顶部</p>
+        </a>
+    <!--<div class="cube video" href="">
+        <div class="sicon  video-icon"></div>
+        <p>视频介绍</p>
+        <div class="right-alert">淘客APP订制</div>
+    </div>-->
+</div>
+
+
+<script src="//webcdn.leapcloud.cn/website/javascript/lib/jquery/jquery.min.js"></script>
+<script src="//webcdn.leapcloud.cn/website/javascript/lib/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+<script src="//webcdn.leapcloud.cn/website/javascript/lib/jquery/jquery.cookie.js"></script>
+<script src="//webcdn.leapcloud.cn/website/javascript/lib/store/dist/store2.min.js"></script>
+<script src="//webcdn.leapcloud.cn/website/javascript/lib/jquery/jquery.validate.min.js"></script>
+<script src="//webcdn.leapcloud.cn/website/javascript/lib/selectUI/js/select-widget-min.js"></script>
+<script src="//webcdn.leapcloud.cn/website/javascript/vendor/jquery.nicescroll/demo/js/jquery.nicescroll.min.js"></script>
+<script src="./js/init.v1528095441944.js"></script>
+
+<script>
+    $(function() {
+        $("html").niceScroll({
+            cursorcolor: "#ccc",//#CC0071 光标颜色
+            cursoropacitymax: 1, //改变不透明度非常光标处于活动状态（scrollabar“可见”状态），范围从1到0
+            touchbehavior: false, //使光标拖动滚动像在台式电脑触摸设备
+            cursorwidth: "5px", //像素光标的宽度
+            cursorborder: "0", // 游标边框css定义
+            cursorborderradius: "5px",//以像素为光标边界半径
+            autohidemode: false //是否隐藏滚动条
+        });
+//        $("#boxscroll").niceScroll({cursorborder:"",cursorcolor:"",boxzoom:true});
+    });
+</script>
+
+
+<script>
+    window.__ENV__MAXWON = {"env":"PROD"}
+
+</script>
+
+    <script src="./js/useemploy.js"></script>
+    <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?c4c283768000b541791fb401b6668fbb";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-70747550-7', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+    </div></body>
+</html>

@@ -1,0 +1,1871 @@
+<!doctype html>
+
+
+
+
+
+
+
+<html>
+
+
+
+<head>
+
+    <title>淘客APP|淘宝客APP|淘客APP订制|淘宝客APP订制|淘客APP开发|返利APP系统|淘客APP制作|花生日记</title>
+
+    <meta name="keywords" content="淘客APP,淘宝客APP,淘客APP订制,淘宝客APP订制,淘客APP开发,返利APP系统,淘客APP制作,花生日记">
+
+    <meta name="description" content="六先生淘客APP原生态订制官网，快速开发淘宝客APP，轻松制作淘客APP，同时拥有iOS+安卓APP，可上架，做国内最强大的大牛专用淘客APP，打造最全面的移动解决方案。">
+
+    <link rel="stylesheet" href="/css/index.v1528095441944.css" type="text/css">
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+
+    <meta property="qc:admins" content="215146377565101003636">
+
+    <link rel="shortcut icon" href="/images/favicon.ico">
+
+    <link rel="stylesheet" href="/css/style.css">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta content="index,follow" name="Baiduspider">
+
+    <meta content="index,follow" name="robots">
+
+
+
+    <!--fundebuger-->
+
+    <!--<script src="https://js.fundebug.cn/fundebug.0.3.5.min.js" apikey="9972fb57226b9445f62cd08fcdf8f74c3d2f6e2d64a18b908fd53bf9f339c3b0"></script>-->
+
+    <script src="/js/adaptive.js"></script>
+
+
+
+
+
+    <script type="text/javascript">
+
+        function checkBrowser(v) {
+
+            var userAgent = navigator.userAgent.toLowerCase(), low = false;
+
+            if (isChromium(userAgent)) {
+
+                low = chromium(userAgent, v.GG);
+
+            } else if (isWebkit(userAgent)) {
+
+                //            low = Safari(userAgent, v.Safari);
+
+            } else if (isFireFox(userAgent)) {
+
+                low = FireFox(userAgent, v.FF)
+
+            } else if (isIE) {
+
+                low = IE(v.IE)
+
+            } else {
+
+                low = true;
+
+            }
+
+            checkjump(low)
+
+        }
+
+
+
+        function checkjump(low) {
+
+            if (low) window.location.href = "/outdatedbrowser" + window.location.search + "?version=001";
+
+        }
+
+
+
+        //    function Safari(userAgent, v) {
+
+        ////        var version = userAgent.match(/version\/([\d.]+)/);
+
+        //        console.log("safair"+ version);
+
+        //        return parseInt(version) < v;
+
+        //    }
+
+
+
+        function FireFox(userAgent, v) {
+
+            var version = userAgent.match(/firefox\/([\d.]+)/)[1];
+
+            return parseInt(version) < v;
+
+        }
+
+
+
+        function chromium(userAgent, v) {
+
+            var version = userAgent.match(/chrome\/([\d.]+)/)[1];
+
+            var versionNum = version.split(".")[0];
+
+            return parseInt(versionNum) < v;
+
+        }
+
+
+
+        function IE(v) {
+
+            var version = 999999;
+
+            if (navigator.appName == 'Microsoft Internet Explorer') {
+
+                new RegExp("MSIE ([0-9]{1,}[\.0-9]{0,})").exec(navigator.userAgent);
+
+                version = parseInt(RegExp.$1);
+
+            } else if ("ActiveXObject" in window) {
+
+                version = 11;
+
+            }
+
+            return parseInt(version) < v;
+
+        };
+
+        // 判断是否为chrome内核浏览器
+
+        function isChromium(userAgent) {
+
+            var chromium = "mozilla/&&applewebkit/&&chrome/&&safari/".split("&&");
+
+            for (var i = 0; i < chromium.length; i++)
+
+                if (userAgent.indexOf(chromium[i]) < 0)
+
+                    return false;
+
+            return true;
+
+        }
+
+
+
+        // 判断是否为webkit内核浏览器
+
+        function isWebkit(userAgent) {
+
+            if (userAgent.indexOf("applewebkit/") < 0)
+
+                return false;
+
+            return true;
+
+        }
+
+
+
+        function isFireFox(userAgent) {
+
+            if (userAgent.indexOf("firefox/") < 0)
+
+                return false;
+
+            return true;
+
+        }
+
+
+
+        function isIE(userAgent) {
+
+            if ((navigator.userAgent.indexOf('MSIE') >= 0) && (navigator.userAgent.indexOf('Opera') < 0))
+
+                return true;
+
+            return false;
+
+        }
+
+
+
+        //检查浏览器
+
+        checkBrowser({ IE: 9, FF: 30, GG: 20, Safari: 4 });
+
+
+
+    // //隐身模式判断
+
+    // try {
+
+    //     window.localStorage.setItem('testkey', '');
+
+    // } catch (error) {
+
+    //     if (window.locale === 'zh') {
+
+    //         alert("请关闭隐身模式");
+
+    //     } else {
+
+    //         alert("Please exit private mode");
+
+    //     }
+
+    // }
+
+
+
+    </script>
+
+
+
+</head>
+
+
+
+<body>
+
+    <!-- WPA start -->
+
+    <script id="qd285215536862827eea5620cf7893db52479a9c97f9" src="https://wp.qiye.qq.com/qidian/2852155368/62827eea5620cf7893db52479a9c97f9"
+
+        charset="utf-8" async defer></script>
+
+    <!-- WPA end -->
+
+
+
+    <!--网站头部导航 PC端-->
+
+    <header class="leapCloud-header">
+
+        <div class="header-content-pc">
+
+            <a class="leapCloud-header-logo" href="index.html">
+
+                <img src="/images/logo_white@1x.png" srcset="/images/logo_white@2x.png 2x" alt="">
+
+            </a>
+
+            <ul class="navbar-left">
+
+                <li class="navli active">
+
+                    <a href="index.html">首页</a>
+
+                </li>
+
+                <li class="navli ">
+
+                    <a href="tailor.html">订制详情</a>
+
+                </li>
+
+                <li class="navli ">
+
+                    <a href="case.html">客户案例</a>
+
+                </li>
+
+                <li class="navli ">
+
+                    <a href="update.html">历史更新</a>
+
+                </li>
+
+                <li class="navli ">
+
+                    <a href="helpcenter.html">用户帮助</a>
+
+                </li>
+
+                <li class="navli ">
+
+                    <a href="news.html">新闻中心</a>
+
+                </li>
+
+                <li class="navli ">
+
+                    <a href="aboutus.html">关于我们</a>
+
+                </li>
+
+            </ul>
+
+            <ul class="navbar-right">
+
+                <li class="navli noMarginRight>">
+
+                    <a href="http://q.url.cn/abjDuo?_type=wpa&qidian=true" target="_blank">在线咨询</a>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+    </header>
+
+    <!--网站头部导航 Mobile端-->
+
+    <header class="leapCloud-header-mobile">
+
+        <a class="leapCloud-header-logo-mobile" href="index.html">
+
+            <img src="/images/logo_white@1x.png" alt="">
+
+        </a>
+
+        <a href="javascript:void(0)" id="mobile-nav-control" class="hide">
+
+            <span class="clearmid"></span>
+
+            <i></i>
+
+        </a>
+
+        <div id="mobile-navbar">
+
+            <ul id="navbar">
+
+                <li class="navli active">
+
+                    <a href="index.html">首页</a>
+
+                </li>
+
+                <li class="navli ">
+
+                    <a href="tailor.html">订制详情</a>
+
+                </li>
+
+                <li class="navli ">
+
+                    <a href="case.html">客户案例</a>
+
+                </li>
+
+                <li class="navli ">
+
+                    <a href="update.html">历史更新</a>
+
+                </li>
+
+                <li class="navli ">
+
+                    <a href="helpcenter.html">用户帮助</a>
+
+                </li>
+
+                <li class="navli ">
+
+                    <a href="news.html">新闻中心</a>
+
+                </li>
+
+                <li class="navli ">
+
+                    <a href="aboutus.html">关于我们</a>
+
+                </li>
+
+            </ul>
+
+            <ul id="mobile-login-buttons">
+
+                <li class="navli noMarginRight>">
+
+                    <a href="http://q.url.cn/abjDuo?_type=wpa&qidian=true" target="_blank">在线咨询</a>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+
+
+
+
+    </header>
+
+
+
+    <!--首页 banner 部分-->
+
+    <div class="leapCloud-banner">
+
+        <div class="mainStyle banner-content">
+
+            <div class="banner-content-left">
+
+                <h1 class="header">六先生APP - 让每个淘客团队都拥有最专业的APP</h1>
+
+                <p class="text">融合美观、营销和运营等功能于一体，即刻开启APP端淘客运营</p>
+
+                <p class="text">花生模式+原生态+安卓&IOS，带你全面进入"淘客+"时代</p>
+
+                <div class="buttons">
+
+                    <a class="freeBtn" href="http://q.url.cn/abjDuo?_type=wpa&qidian=true" target="_blank">在线咨询</a>
+
+                </div>
+
+            </div>
+
+            <div class="banner-content-right">
+
+                <img src="/images/index/index_banner_img@1x.png" srcset="/images/index/index_banner_img@2x.png 2x" alt="">
+
+            </div>
+
+            <div class="banner-content-left-mobile">
+
+                <h1 class="header">六先生APP - 让每个淘客团队都拥有最专业的APP</h1>
+
+                <p class="text">融合营销、销售和运营等功能于一体，即刻开启移动端业务运营</p>
+
+                <p class="text">花生模式+原生态+安卓&IOS，带你全面进入"淘客+"时代</p>
+
+                <div class="buttons">
+
+                    <a class="freeBtn" href="http://q.url.cn/abjDuo?_type=wpa&qidian=true" target="_blank">在线咨询</a>
+
+                </div>
+
+            </div>
+
+            <div class="banner-content-right-mobile">
+
+                <img src="/images/index/index_banner_img@1x.png" alt="">
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--六先生移动解决方案-->
+
+    <div class="solution">
+
+        <div class="mainStyle solution-content">
+
+            <h1 class="solution-h1">六先生原生淘客APP订制解决方案</h1>
+
+            <h2 class="solution-h2">融合核心技术和最流行推广方式，让您的推广稳定高效，最领先的移动解决方案</h2>
+
+            <h2 class="solution-h2-mobile">融合核心技术和最流行推广方式，让您的推广稳定高效
+
+                <br> 最领先的移动解决方案</h2>
+
+            <ul class="solution-cases-tabs">
+
+                <li class="solution-cases-li active">●最新功能</li>
+
+                <li class="solution-cases-li">●特色功能</li>
+
+                <li class="solution-cases-li">●技术保障</li>
+
+                <li class="solution-cases-li">●维护更新</li>
+
+                <!--<li class="solution-cases-li">其他</li>-->
+
+            </ul>
+
+        </div>
+
+        <div class="case-content">
+
+            <div class="mainStyle content">
+
+                <ul class="solution-case-lists case-list-01">
+
+                    <!--最新功能-->
+
+                    <li class="case">
+
+                        <img src="/images/index/hsms1.png" srcset="/images/index/hsms2.png 2x" alt="">
+
+                        <h3>花生模式(已超越花生)</h3>
+
+                        <p>一比一对照花生日记APP模式，且代理级别支持更高，功能只强不弱</p>
+
+                        <div class="btns">
+
+                            <a href="detail.html#花生模式" class="understand">查看详情</a>
+
+                        </div>
+
+                    </li>
+
+                    <li class="case">
+
+                        <img src="/images/index/qydl1.png" srcset="/images/index/qudl2.png 2x" alt="">
+
+                        <h3>区域代理</h3>
+
+                        <p>可设置整个区域的代理，数据单独计算，支持与其他代理模式共存</p>
+
+                        <div class="btns">
+
+                            <a href="detail.html#区域代理" class="understand">查看详情</a>
+
+                        </div>
+
+                    </li>
+
+                    <li class="case">
+
+                        <img src="/images/index/xxlwa1.png" srcset="/images/index/xxlwa2.png 2x" alt="">
+
+                        <h3>信息流文案</h3>
+
+                        <p>新增商品信息流文案模板功能，可自定义用户通知信息流文案，打通用户互动场景</p>
+
+                        <div class="btns">
+
+                            <a href="detail.html#信息流文案" class="understand">查看详情</a>
+
+                        </div>
+
+                    </li>
+
+                    <li class="case">
+
+                        <img src="/images/index/hdljjcs1.png" srcset="/images/index/hdljjcs2.png 2x" alt="">
+
+                        <h3>活动链接加参数</h3>
+
+                        <p>自定义相应活动图的链接可加入相应参数，以便实现代理推广也可以生效</p>
+
+                        <div class="btns">
+
+                            <a href="detail.html#活动链接加参数" class="understand">查看详情</a>
+
+                        </div>
+
+                    </li>
+
+                </ul>
+
+                <!--特色功能-->
+
+                <ul class="solution-case-lists case-list-02">
+
+                    <li class="case">
+
+                        <img src="/images/index/cjss1.png" srcset="/images/index/cjss2.png 2x" alt="">
+
+                        <h3>超级搜索</h3>
+
+                        <p>关键字搜索联盟所有返利商品，搜出来的都有返利和优惠</p>
+
+                        <div class="btns">
+
+
+
+                            <a href="detail.html#超级搜索" class="understand">查看详情</a>
+
+                        </div>
+
+                    </li>
+
+                    <li class="case">
+
+                        <img src="/images/index/jmgl1.png" srcset="/images/index/jmgl2.png 2x" alt="">
+
+                        <h3>界面管理</h3>
+
+                        <p>专属定制版淘客app，可自定义设置界面，并且已实现可视化效果设置界面操作</p>
+
+                        <div class="btns">
+
+
+
+                            <a href="detail.html#界面管理" class="understand">查看详情</a>
+
+                        </div>
+
+                    </li>
+
+                    <li class="case">
+
+                        <img src="/images/index/jfsc1.png" srcset="/images/index/jfsc2.png 2x" alt="">
+
+                        <h3>积分商城</h3>
+
+                        <p>用户在购物、签到、邀请等活动获取积分，可直接在积分商城兑换商品</p>
+
+                        <div class="btns">
+
+
+
+                            <a href="detail.html#积分商城" class="understand">查看详情</a>
+
+                        </div>
+
+                    </li>
+
+                    <li class="case">
+
+                        <img src="/images/index/yxgn1.png" srcset="/images/index/yxgn2.png 2x" alt="">
+
+                        <h3>营销功能</h3>
+
+                        <p>丰富的营销功能，购物返利、攒积分商城兑换，更多吸粉营销功能正在开发中</p>
+
+                        <div class="btns">
+
+
+
+                            <a href="detail.html#营销功能" class="understand">查看详情</a>
+
+                        </div>
+
+                    </li>
+
+                    <li class="case">
+
+                        <img src="/images/index/llbx1.png" srcset="/images/index/llbx2.png 2x" alt="">
+
+                        <h3>流量变现</h3>
+
+                        <p>流量高效变现，流量主变老板</p>
+
+                        <div class="btns">
+
+
+
+                            <a href="detail.html#流量变现" class="understand">查看详情</a>
+
+                        </div>
+
+                    </li>
+
+                    <li class="case">
+
+                        <img src="/images/index/xsqg1.png" srcset="/images/index/xsqg2.png 2x" alt="">
+
+                        <h3>限时抢购</h3>
+
+                        <p>低价购买还返积分或现金，限时限量，疯狂抢购</p>
+
+                        <div class="btns">
+
+
+
+                            <a href="detail.html#限时抢购" class="understand">查看详情</a>
+
+                        </div>
+
+                    </li>
+
+                    <li class="case">
+
+                        <img src="/images/index/sjfx1.png" srcset="/images/index/sjfx2.png 2x" alt="">
+
+                        <h3>三级分销</h3>
+
+                        <p>超灵活三级分佣自动分裂，实现快速赚</p>
+
+                        <div class="btns">
+
+
+
+                            <a href="detail.html#三级分销" class="understand">查看详情</a>
+
+                        </div>
+
+                    </li>
+
+                    <li class="case">
+
+                        <img src="/images/index/gwfl1.png" srcset="/images/index/gwfl2.png 2x" alt="">
+
+                        <h3>购物返利</h3>
+
+                        <p>购买商城任意的商品，都可获得一定的返利</p>
+
+                        <div class="btns">
+
+
+
+                            <a href="detail.html#购物返利" class="understand">查看详情</a>
+
+                        </div>
+
+                    </li>
+
+                    <li class="case">
+
+                        <img src="/images/index/ksfx1.png" srcset="/images/index/ksfx2.png 2x" alt="">
+
+                        <h3>快速分享</h3>
+
+                        <p>支持商品一键分享至微信、朋友圈、QQ、QQ空间、微博等大流量平台</p>
+
+                        <div class="btns">
+
+
+
+                            <a href="detail.html#快速分享" class="understand">查看详情</a>
+
+                        </div>
+
+                    </li>
+
+                    <li class="case">
+
+                        <img src="/images/index/fxz1.png" srcset="/images/index/fxz2.png 2x" alt="">
+
+                        <h3>分享赚</h3>
+
+                        <p>不用花钱，分享即可赚钱，降低裂变成本，提高裂变效果</p>
+
+                        <div class="btns">
+
+
+
+                            <a href="detail.html#分享赚" class="understand">查看详情</a>
+
+                        </div>
+
+                    </li>
+
+
+
+                    <li class="case">
+
+                        <img src="/images/index/spgl1.png" srcset="/images/index/spgl2.png 2x" alt="">
+
+                        <h3>商品管理</h3>
+
+                        <p>强大的淘客商品库，无需个人亲自管理，每天定时更新</p>
+
+                        <div class="btns">
+
+
+
+                            <a href="detail.html#商品管理" class="understand">查看详情</a>
+
+                        </div>
+
+                    </li>
+
+                    <li class="case">
+
+                        <img src="/images/index/yhgl1.png" srcset="/images/index/yhgl2.png 2x" alt="">
+
+                        <h3>用户管理</h3>
+
+                        <p>自动管理用户信息等，方便、快速</p>
+
+                        <div class="btns">
+
+
+
+                            <a href="detail.html#用户管理" class="understand">查看详情</a>
+
+                        </div>
+
+                    </li>
+
+
+
+                </ul>
+
+                <!--技术保障-->
+
+                <ul class="solution-case-lists case-list-03">
+
+                    <li class="case">
+
+                        <img src="/images/index/mfywzc1.png" srcset="/images/index/mfywzc2.png 2x" alt="">
+
+                        <h3>免费运维支持</h3>
+
+                        <p>订制淘客APP需要用到的服务器数据库等信息可交予我们售后技术，在需要更新以及维护时技术会免费帮助客户处理</p>
+
+                        <div class="btns">
+
+
+
+                            <a href="http://q.url.cn/abjDuo?_type=wpa&qidian=true" target="_blank" class="understand">咨询客服</a>
+
+                        </div>
+
+                    </li>
+
+                    <li class="case">
+
+                        <img src="/images/index/ffwqtg1.png" srcset="/images/index/ffwqtg2.png 2x" alt="">
+
+                        <h3>付费完全托管</h3>
+
+                        <p>如客户无精力时时跟进APP时，我们可有偿承接全面托管，从UI设计到上架、服务器运维等等工作全部帮客户完成</p>
+
+                        <div class="btns">
+
+
+
+                            <a href="http://q.url.cn/abjDuo?_type=wpa&qidian=true" target="_blank" class="understand">咨询客服</a>
+
+                        </div>
+
+                    </li>
+
+                </ul>
+
+                <!--维护更新-->
+
+                <ul class="solution-case-lists case-list-04">
+
+                    <li class="case">
+
+                        <img src="/images/index/dqwh1.png" srcset="/images/index/dqwh2.png 2x" alt="">
+
+                        <h3>定期维护</h3>
+
+                        <p>为了提高系统的流畅度及稳定性，我司将定期对系统进行定期维护，一般一个月维护一次，特殊情况除外</p>
+
+                        <div class="btns">
+
+
+
+                            <a href="http://q.url.cn/abjDuo?_type=wpa&qidian=true" target="_blank" class="understand">咨询客服</a>
+
+                        </div>
+
+                    </li>
+
+                    <li class="case">
+
+                        <img src="/images/index/bdqgx1.png" srcset="/images/bdqgx2.png 2x" alt="">
+
+                        <h3>不定期更新</h3>
+
+                        <p>开发技术将不断根据客户的合理需求进行APP源码的开发及更新，一般半个月更新一次，每次10余项更新，特殊情况除外</p>
+
+                        <div class="btns">
+
+
+
+                            <a href="http://q.url.cn/abjDuo?_type=wpa&qidian=true" target="_blank" class="understand">咨询客服</a>
+
+                        </div>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--六先生移动解决方案 移动端-->
+
+    <div class="solution-mobile">
+
+        <div class="solution-content">
+
+            <h1 class="solution-h1-mobile">六先生原生淘客APP订制解决方案</h1>
+
+            <h2 class="solution-h2-mobile">融合核心技术和最流行推广方式，让您的推广稳定高效，
+
+                <br> 最领先的移动解决方案</h2>
+
+        </div>
+
+        <!--最新功能-->
+
+        <div class="solution-cases">
+
+            <div class="solution-case-list">
+
+                <div class="solution-case-tab">
+
+                    <p class="green">最新功能</p>
+
+                    <div class="navbar-control">
+
+                        <img class="show tab_arrow_open" src="/images/tab_open.png" srcset="/images/tab_open@2x.png 2x" alt="">
+
+                        <img class="hide tab_arrow_close" src="/images/tab_close.png" srcset="/images/tab_close@2x.png 2x" alt="">
+
+                    </div>
+
+                </div>
+
+                <ul class="solution-case">
+
+                    <li class="case">
+
+                        <img src="/images/index/hsms1.png" alt="">
+
+                        <h3>花生模式(已超越花生)</h3>
+
+                        <p>一比一对照花生日记APP模式，且代理级别支持更高，功能只强不弱</p>
+
+                        <div class="btns">
+
+                            <a href="detail.html" class="understand">查看详情</a>
+
+                        </div>
+
+                    </li>
+
+                    <li class="case">
+
+                        <img src="/images/index/qydl1.png" alt="">
+
+                        <h3>区域代理</h3>
+
+                        <p>可设置整个区域的代理，数据单独计算，支持与其他代理模式共存</p>
+
+                        <div class="btns">
+
+                            <a href="detail.html" class="understand">查看详情</a>
+
+                        </div>
+
+                    </li>
+
+                    <li class="case">
+
+                        <img src="/images/index/xxlwa1.png" alt="">
+
+                        <h3>信息流文案</h3>
+
+                        <p>新增商品信息流文案模板功能，可自定义用户通知信息流文案，打通用户互动场景</p>
+
+                        <div class="btns">
+
+                            <a href="detail.html" class="understand">查看详情</a>
+
+                        </div>
+
+                    </li>
+
+                    <li class="case">
+
+                        <img src="/images/index/hdljjcs1.png" alt="">
+
+                        <h3>活动链接加参数</h3>
+
+                        <p>自定义相应活动图的链接可加入相应参数，以便实现代理推广也可以生效</p>
+
+                        <div class="btns">
+
+
+
+                            <a href="detail.html" class="understand">查看详情</a>
+
+                        </div>
+
+                    </li>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <!--特色功能-->
+
+            <div class="solution-case-list">
+
+                <div class="solution-case-tab">
+
+                    <p class="gray">特色功能</p>
+
+                    <div class="navbar-control">
+
+                        <img class="hide tab_arrow_open" src="/images/tab_open.png" srcset="/images/tab_open@2x.png 2x" alt="">
+
+                        <img class="show tab_arrow_close" src="/images/tab_close.png" srcset="/images/tab_close@2x.png 2x" alt="">
+
+                    </div>
+
+                </div>
+
+                <ul class="solution-case hide">
+
+                    <li class="case">
+
+                        <img src="/images/index/cjss1.png" alt="">
+
+                        <h3>超级搜索</h3>
+
+                        <p>关键字搜索联盟所有返利商品，搜出来的都有返利和优惠</p>
+
+                        <div class="btns">
+
+
+
+                            <a href="detail.html" class="understand">查看详情</a>
+
+                        </div>
+
+                    </li>
+
+                    <li class="case">
+
+                        <img src="/images/index/jmgl1.png" alt="">
+
+                        <h3>界面管理</h3>
+
+                        <p>专属定制版淘客app，可自定义设置界面，并且已实现可视化效果设置界面操作</p>
+
+                        <div class="btns">
+
+
+
+                            <a href="detail.html" class="understand">查看详情</a>
+
+                        </div>
+
+                    </li>
+
+                    <li class="case">
+
+                        <img src="/images/index/jfsc1.png" alt="">
+
+                        <h3>积分商城</h3>
+
+                        <p>用户在购物、签到、邀请等活动获取积分，可直接在积分商城兑换商品</p>
+
+                        <div class="btns">
+
+
+
+                            <a href="detail.html" class="understand">查看详情</a>
+
+                        </div>
+
+                    </li>
+
+                    <li class="case">
+
+                        <img src="/images/index/yxgn1.png" alt="">
+
+                        <h3>营销功能</h3>
+
+                        <p>丰富的营销功能，购物返利、攒积分商城兑换，更多吸粉营销功能正在开发中</p>
+
+                        <div class="btns">
+
+
+
+                            <a href="detail.html" class="understand">查看详情</a>
+
+                        </div>
+
+                    </li>
+
+                    <li class="case">
+
+                        <img src="/images/index/llbx1.png" alt="">
+
+                        <h3>流量变现</h3>
+
+                        <p>流量高效变现，流量主变老板</p>
+
+                        <div class="btns">
+
+
+
+                            <a href="detail.html" class="understand">查看详情</a>
+
+                        </div>
+
+                    </li>
+
+                    <li class="case">
+
+                        <img src="/images/index/xsqg1.png" alt="">
+
+                        <h3>限时抢购</h3>
+
+                        <p>低价购买还返积分或现金，限时限量，疯狂抢购</p>
+
+                        <div class="btns">
+
+
+
+                            <a href="detail.html" class="understand">查看详情</a>
+
+                        </div>
+
+                    </li>
+
+                    <li class="case">
+
+                        <img src="/images/index/sjfx1.png" alt="">
+
+                        <h3>三级分销</h3>
+
+                        <p>超灵活三级分佣自动分裂，实现快速赚</p>
+
+                        <div class="btns">
+
+
+
+                            <a href="detail.html" class="understand">查看详情</a>
+
+                        </div>
+
+                    </li>
+
+                    <li class="case">
+
+                        <img src="/images/index/gwfl1.png" alt="">
+
+                        <h3>购物返利</h3>
+
+                        <p>购买商城任意的商品，都可获得一定的返利</p>
+
+                        <div class="btns">
+
+
+
+                            <a href="detail.html" class="understand">查看详情</a>
+
+                        </div>
+
+                    </li>
+
+                    <li class="case">
+
+                        <img src="/images/index/ksfx1.png" alt="">
+
+                        <h3>快速分享</h3>
+
+                        <p>支持商品一键分享至微信、朋友圈、QQ、QQ空间、微博等大流量平台</p>
+
+                        <div class="btns">
+
+
+
+                            <a href="detail.html" class="understand">查看详情</a>
+
+                        </div>
+
+                    </li>
+
+                    <li class="case">
+
+                        <img src="/images/index/fxz1.png" alt="">
+
+                        <h3>分享赚</h3>
+
+                        <p>不用花钱，分享即可赚钱，降低裂变成本，提高裂变效果</p>
+
+                        <div class="btns">
+
+
+
+                            <a href="detail.html" class="understand">查看详情</a>
+
+                        </div>
+
+                    </li>
+
+
+
+                    <li class="case">
+
+                        <img src="/images/index/spgl1.png" alt="">
+
+                        <h3>商品管理</h3>
+
+                        <p>强大的淘客商品库，无需个人亲自管理，每天定时更新</p>
+
+                        <div class="btns">
+
+
+
+                            <a href="detail.html" class="understand">查看详情</a>
+
+                        </div>
+
+                    </li>
+
+                    <li class="case">
+
+                        <img src="/images/index/yhgl1.png" alt="">
+
+                        <h3>用户管理</h3>
+
+                        <p>自动管理用户信息等，方便、快速</p>
+
+                        <div class="btns">
+
+
+
+                            <a href="detail.html" class="understand">查看详情</a>
+
+                        </div>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <!--技术保障-->
+
+            <div class="solution-case-list">
+
+                <div class="solution-case-tab">
+
+                    <p class="gray">技术保障</p>
+
+                    <div class="navbar-control">
+
+                        <img class="hide tab_arrow_open" src="/images/tab_open.png" srcset="/images/tab_open@2x.png 2x" alt="">
+
+                        <img class="show tab_arrow_close" src="/images/tab_close.png" srcset="/images/tab_close@2x.png 2x" alt="">
+
+                    </div>
+
+                </div>
+
+                <ul class="solution-case hide">
+
+                    <li class="case">
+
+                        <img src="/images/index/mfywzc1.png" alt="">
+
+                        <h3>免费运维支持</h3>
+
+                        <p>订制淘客APP需要用到的服务器数据库等信息可交予我们售后技术，在需要更新以及维护时技术会免费帮助客户处理</p>
+
+                        <div class="btns">
+
+
+
+                            <a href="detail.html" class="understand">查看详情</a>
+
+                        </div>
+
+                    </li>
+
+                    <li class="case">
+
+                        <img src="/images/index/ffwqtg1.png" alt="">
+
+                        <h3>付费完全托管</h3>
+
+                        <p>如客户无精力时时跟进APP时，我们可有偿承接全面托管，从UI设计到上架、服务器运维等等工作全部帮客户完成</p>
+
+                        <div class="btns">
+
+
+
+                            <a href="detail.html" class="understand">查看详情</a>
+
+                        </div>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <!--维护更新-->
+
+            <div class="solution-case-list">
+
+                <div class="solution-case-tab">
+
+                    <p class="gray">维护更新</p>
+
+                    <div class="navbar-control">
+
+                        <img class="hide tab_arrow_open" src="/images/tab_open.png" srcset="/images/tab_open@2x.png 2x" alt="">
+
+                        <img class="show tab_arrow_close" src="/images/tab_close.png" srcset="/images/tab_close@2x.png 2x" alt="">
+
+                    </div>
+
+                </div>
+
+                <ul class="solution-case hide">
+
+                    <li class="case">
+
+                        <img src="/images/index/dqwh1.png" alt="">
+
+                        <h3>定期维护</h3>
+
+                        <p>为了提高系统的流畅度及稳定性，我司将定期对系统进行定期维护，一般一个月维护一次，特殊情况除外</p>
+
+                        <div class="btns">
+
+
+
+                            <a href="#" class="understand">查看详情</a>
+
+                        </div>
+
+                    </li>
+
+                    <li class="case">
+
+                        <img src="/images/index/bdqgx1.png" alt="">
+
+                        <h3>不定期更新</h3>
+
+                        <p>开发技术将不断根据客户的合理需求进行APP源码的开发及更新，一般半个月更新一次，每次10余项更新，特殊情况除外</p>
+
+                        <div class="btns">
+
+
+
+                            <a href="detail.html" class="understand">查看详情</a>
+
+                        </div>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+    <!--六先生APP订制 - 让每个淘客团队都拥有最专业的APP-->
+
+    <div class="freeTrial-content">
+
+        <div class="bg-content">
+
+            <div class="mainStyle">
+
+                <h1 class="freeTrial-h">六先生APP订制 - 让您的淘客团队拥有最专业的APP</h1>
+
+                <a href="http://q.url.cn/abjDuo?_type=wpa&qidian=true" target="_blank" class="freeTrialBtn">在线咨询</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--合作伙伴-->
+
+    <div class="partners-links">
+
+        <div class="partners-links-content mainStyle">
+
+            <h2 class="partners-h">合作伙伴</h2>
+
+            <div class="partners-container">
+
+                <ul class="partners-wrapper">
+
+                    <li class="partners-slide">
+
+                        <a rel="nofollow" href="javascript:void(0)" target="_blank" class="partners">
+
+                            <img class="partners-icon" src="/images/index/almm.jpg">
+
+                            <span class="partners-text">阿里妈妈</span>
+
+                        </a>
+
+                    </li>
+
+                    <li class="partners-slide">
+
+                        <a rel="nofollow" href="javascript:void(0)" target="_blank" class="partners">
+
+                            <img class="partners-icon" src="/images/index/hwy.jpg">
+
+                            <span class="partners-text">华为云</span>
+
+                        </a>
+
+                    </li>
+
+                    <li class="partners-slide">
+
+                        <a rel="nofollow" href="javascript:void(0)" target="_blank" class="partners">
+
+                            <img class="partners-icon" src="/images/index/azure.jpg">
+
+                            <span class="partners-text">Azure</span>
+
+                        </a>
+
+                    </li>
+
+                    <li class="partners-slide">
+
+                        <a rel="nofollow" class="partners">
+
+                            <img class="partners-icon" src="/images/index/aliyun.jpg">
+
+                            <span class="partners-text">阿里云</span>
+
+                        </a>
+
+                    </li>
+
+                    <li class="partners-slide">
+
+                        <a rel="nofollow" class="partners">
+
+                            <img class="partners-icon" src="/images/index/zgdx.jpg">
+
+                            <span class="partners-text">中国电信</span>
+
+                        </a>
+
+                    </li>
+
+                    <li class="partners-slide">
+
+                        <a rel="nofollow" class="partners">
+
+                            <img class="partners-icon" src="/images/index/tencent.jpg">
+
+                            <span class="partners-text">腾讯</span>
+
+                        </a>
+
+                    </li>
+
+                    <li class="partners-slide">
+
+                        <a rel="nofollow" class="partners">
+
+                            <img class="partners-icon" src="/images/index/baidu.jpg">
+
+                            <span class="partners-text">百度</span>
+
+                        </a>
+
+                    </li>
+
+                    <li class="partners-slide">
+
+                        <a rel="nofollow" class="partners">
+
+                            <img class="partners-icon" src="/images/index/albb.jpg">
+
+                            <span class="partners-text">阿里巴巴</span>
+
+                        </a>
+
+                    </li>
+
+                    <li class="partners-slide">
+
+                        <a rel="nofollow" class="partners">
+
+                            <img class="partners-icon" src="/images/index/txy.jpg">
+
+                            <span class="partners-text">腾讯云</span>
+
+                        </a>
+
+                    </li>
+
+                    <li class="partners-slide">
+
+                        <a rel="nofollow" class="partners">
+
+                            <img class="partners-icon" src="/images/index/ymx.jpg">
+
+                            <span class="partners-text">亚马逊AWS</span>
+
+                        </a>
+
+                    </li>
+
+
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cspan id='cnzz_stat_icon_1274033043'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s13.cnzz.com/z_stat.php%3Fid%3D1274033043%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));
+
+    </script>
+
+
+
+    <div id="footer">
+
+        <div class="mainStyle footer-content">
+
+            <ul class="footer-logo">
+
+                <li>
+
+                    <img src="/images/footer_logo.png" alt="">
+
+                </li>
+
+            </ul>
+
+            <ul class="footer-nav">
+
+                <li class="head">六先生</li>
+
+                <li>
+
+                    <a href="tailor.html">定制服务</a>
+
+                </li>
+
+                <li>
+
+                    <a href="whitepaper.html">技术白皮书</a>
+
+                </li>
+
+            </ul>
+
+            <ul class="footer-nav">
+
+                <li class="head">公司</li>
+
+                <li>
+
+                    <a href="aboutus.html">关于我们</a>
+
+                </li>
+
+                <li>
+
+                    <a href="useemploy.html">使用协议</a>
+
+                </li>
+
+            </ul>
+
+            <div class="address">
+
+                <div class="telephone-h">地址</div>
+
+                <div class="address-text">长沙市开发区中电软件园 </div>
+
+                <a class="maxwon-url" href="index.html">www.yangsa.net</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="copyRightIndex">© 2018 洋飒网络科技 版权所有 湘ICP备17012856号</div>
+
+
+
+    <div id="footer-mobile">
+
+        <div class="mainStyle footer-content-mobile">
+
+            <ul class="footer-nav">
+
+                <li>
+
+                    <a href="tailor.html">定制服务</a>
+
+                </li>
+
+                <li>
+
+                    <a href="whitepaper.html">技术白皮书</a>
+
+                </li>
+
+            </ul>
+
+            <ul class="footer-nav">
+
+                <li>
+
+                    <a href="aboutus.html">关于我们</a>
+
+                </li>
+
+                <li>
+
+                    <a href="useemploy.html">使用协议</a>
+
+                </li>
+
+            </ul>
+
+            <div class="addressInfo">
+
+                <div class="address-text">长沙市开发区中电软件园 </div>
+
+                <a class="maxwon-url" href="http://www.yangsa.net/">www.yangsa.net</a>
+
+            </div>
+
+        </div>
+
+        <div class="copyRightIndex">© 2018 洋飒网络科技 版权所有 湘ICP备17012856号</div>
+
+        <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cspan id='cnzz_stat_icon_1274033043'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s13.cnzz.com/z_stat.php%3Fid%3D1274033043%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+
+    </div>
+
+
+
+
+
+    <div id="mobile-righter">
+
+        <div class="mobile-righter-btn">
+
+            <a href="http://q.url.cn/abjDuo?_type=wpa&qidian=true" target="_blank">
+
+                <img src="./images/QQ.png" alt="">
+
+            </a>
+
+        </div>
+
+        <div onclick="backToTop()" class="mobile-righter-btn">
+
+            <img src="./images/up.png" alt="">
+
+        </div>
+
+
+
+    </div>
+
+
+
+    <div id="righter">
+
+        <a class="cube" href="http://q.url.cn/abjDuo?_type=wpa&qidian=true" target="_blank">
+
+            <div class="sicon support "></div>
+
+            <p>在线咨询</p>
+
+        </a>
+
+        <!--<div class="cube common-cube ">
+
+        <div class="sicon tel "></div>
+
+        <p>电话咨询</p>
+
+        <div class="right-alert ">12345678</div>
+
+    </div>
+
+    <div class="cube merchants-cube " style="display: none ">
+
+        <div class="sicon tel "></div>
+
+        <p>电话咨询</p>
+
+        <div class="right-alert ">12345678</div>
+
+    </div>-->
+
+        <a class="cube " href="case.html ">
+
+            <div class="sicon login "></div>
+
+            <p>客户案例</p>
+
+        </a>
+
+        <a class="cube " href="update.html ">
+
+            <div class="sicon join "></div>
+
+            <p>历史更新</p>
+
+        </a>
+
+        <a onclick="backToTop()" class="cube " href="javascipt:void(0)">
+
+            <div class="sicon tel "></div>
+
+            <p>返回顶部</p>
+
+        </a>
+
+        <div class="cube video " href=" ">
+
+            <div class="sicon video-icon "></div>
+
+            <p>视频介绍</p>
+
+            <div class="right-alert ">六先生视频</div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="/js/jquery.min.js "></script>
+
+        <script src="/js/jquery-ui.min.js "></script>
+
+        <script src="/js/jquery.cookie.js "></script>
+
+        <script src="/js/store2.min.js "></script>
+
+        <script src="/js/jquery.validate.min.js "></script>
+
+        <script src="/js/select-widget-min.js "></script>
+
+        <script src="/js/jquery.nicescroll.min.js "></script>
+
+        <script src="/js/init.v1528095441944.js "></script>
+
+
+
+        <script>
+
+            $(function () {
+
+                $("html ").niceScroll({
+
+                    cursorcolor: "#ccc ",//#CC0071 光标颜色
+
+                    cursoropacitymax: 1, //改变不透明度非常光标处于活动状态（scrollabar“可见”状态），范围从1到0
+
+                    touchbehavior: false, //使光标拖动滚动像在台式电脑触摸设备
+
+                    cursorwidth: "5px ", //像素光标的宽度
+
+                    cursorborder: "0 ", // 游标边框css定义
+
+                    cursorborderradius: "5px ",//以像素为光标边界半径
+
+                    autohidemode: false //是否隐藏滚动条
+
+                });
+
+                //        $("#boxscroll ").niceScroll({cursorborder:" ",cursorcolor:" ",boxzoom:true});
+
+            });
+
+        </script>
+
+
+
+
+
+        <script>
+
+            window.__ENV__MAXWON = { "env ": "PROD " }
+
+
+
+        </script>
+
+
+
+        <script src="/js/index.v1528095441944.js "></script>
+
+        <script>
+
+            var _hmt = _hmt || [];
+
+            (function () {
+
+                var hm = document.createElement("script");
+
+                hm.src = "https://hm.baidu.com/hm.js?d1461a97e84b3c885ef509561179ac92";
+
+                var s = document.getElementsByTagName("script")[0];
+
+                s.parentNode.insertBefore(hm, s);
+
+            })();
+
+        </script>
+
+
+
+
+
+        <!-- <script>
+
+            (function (i, s, o, g, r, a, m) {
+
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+
+                    (i[r].q = i[r].q || []).push(arguments)
+
+                }, i[r].l = 1 * new Date(); a = s.createElement(o),
+
+                    m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+
+
+            ga('create', 'UA-70747550-7', 'auto');
+
+            ga('send', 'pageview');
+
+
+
+        </script> -->
+
+
+
+    </div>
+
+
+
+</body>
+
+
+
+</html>
